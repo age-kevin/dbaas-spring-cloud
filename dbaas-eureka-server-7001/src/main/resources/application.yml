@@ -1,0 +1,14 @@
+server:
+  port: 7001
+
+eureka:
+  client:
+    #是否将自己注册到Eureka Server
+    register-with-eureka: true
+    #是否从Eureka Server获取注册信息
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: "http://peer2:7002/eureka/,http://peer3:7003/eureka/"
+  instance:
+    prefer-ip-address: false
+    hostname: "peer1"

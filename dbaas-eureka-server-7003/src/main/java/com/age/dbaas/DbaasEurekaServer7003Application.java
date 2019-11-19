@@ -2,10 +2,12 @@ package com.age.dbaas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class DbaasRedisServiceApplication {
+@EnableEurekaServer
+public class DbaasEurekaServer7003Application {
     public static void main(String[] args) {
-        SpringApplication.run(DbaasRedisServiceApplication.class, args);
+        SpringApplication.run(DbaasEurekaServer7003Application.class, args);
     }
 }
