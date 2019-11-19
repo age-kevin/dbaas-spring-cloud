@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97b53dfc-663a-41ac-85e0-0bf5551a40bb" name="Default Changelist" comment="" />
+    <list default="true" id="97b53dfc-663a-41ac-85e0-0bf5551a40bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,19 +32,30 @@
     </option>
   </component>
   <component name="ProjectId" id="1TTc92fHeFcdILWb6MFTCuUtu9V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dbaas-eureka-server-7003/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\dbaasspringcloud\dbaas-eureka-server-7003\src\main\resources" />
+      <recent name="D:\Workspace\dbaasspringcloud\dbaas-eureka-server-7002\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,7 +69,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer7001Application">
+  <component name="RunManager">
+    <configuration name="DbaasEurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dbaaseurekaserver7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.age.dbaas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.DbaasEurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbaasEurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dbaaseurekaserver7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.age.dbaas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.DbaasEurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbaasEurekaServer7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dbaaseurekaserver7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.age.dbaas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.DbaasEurekaServer7003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbaasRedisServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dbaasredisservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.age.dbaas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.DbaasRedisServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer7001Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekaserver7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.EurekaServer7001Application" />
@@ -80,6 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DbaasEurekaServer7003Application" />
+        <item itemvalue="Spring Boot.DbaasEurekaServer7002Application" />
+        <item itemvalue="Spring Boot.DbaasEurekaServer7001Application" />
+        <item itemvalue="Spring Boot.DbaasRedisServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServer7001Application" />
       </list>
     </recent_temporary>
@@ -100,11 +176,45 @@
       <workItem from="1573663997471" duration="506000" />
       <workItem from="1573743346695" duration="2165000" />
       <workItem from="1573874735124" duration="670000" />
-      <workItem from="1573996248459" duration="854000" />
+      <workItem from="1573996248459" duration="5591000" />
+      <workItem from="1574171036894" duration="5704000" />
     </task>
+    <task id="LOCAL-00001" summary="update by Age">
+      <created>1574001238826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574001238826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update by AGE">
+      <created>1574176706426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574176706426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update by Age" />
+    <MESSAGE value="update by AGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by AGE" />
   </component>
 </project>

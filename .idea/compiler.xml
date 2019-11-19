@@ -6,12 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver7001" />
-        <module name="dbaasutilapi" />
+        <module name="dbaaseurekaserver7002" />
+        <module name="dbaasredisservice" />
+        <module name="dbaaseurekaserver7001" />
+        <module name="dbaascommon" />
+        <module name="dbaaseurekaserver7003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dbaasutilapi" target="1.8" />
       <module name="eureka-server-7001" target="1.8" />
+      <module name="eurekaserver7001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
