@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dbaaseurekaserver7002" />
         <module name="dbaasredisservice" />
-        <module name="dbaaseurekaserver7001" />
+        <module name="dbaascmdbservice" />
         <module name="dbaascommon" />
         <module name="dbaaseurekaserver7003" />
+        <module name="dbaaseurekaserver7002" />
+        <module name="dbaaseurekaserver7001" />
+        <module name="dbaasmysqlservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

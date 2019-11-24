@@ -1,0 +1,16 @@
+server:
+  port: 9070
+
+spring:
+  application:
+    name: dbaas-cmdb-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:7001/eureka/,http://peer2:7002/eureka/,http://peer3:7003/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    instance-id: dbaas-cmdb-service
+    prefer-ip-address: true

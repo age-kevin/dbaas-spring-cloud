@@ -13,6 +13,8 @@
         <module>dbaas-eureka-server-7001</module>
         <module>dbaas-eureka-server-7002</module>
         <module>dbaas-eureka-server-7003</module>
+        <module>dbaas-mysql-service</module>
+        <module>dbaas-cmdb-service</module>
     </modules>
     <packaging>pom</packaging>
 

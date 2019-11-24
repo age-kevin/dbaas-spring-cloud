@@ -1,2 +1,16 @@
 server:
-  port: 9091
+  port: 9050
+
+spring:
+  application:
+    name: dbaas-redis-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:7001/eureka/,http://peer2:7002/eureka/,http://peer3:7003/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    instance-id: dbaas-redis-service
+    prefer-ip-address: true

@@ -1,6 +1,10 @@
 server:
   port: 7002
 
+spring:
+  application:
+    name: dbaas-eureka-server
+
 eureka:
   client:
     #是否将自己注册到Eureka Server
@@ -8,7 +12,7 @@ eureka:
     #是否从Eureka Server获取注册信息
     fetch-registry: true
     serviceUrl:
-      defaultZone: "http://peer1:7001/eureka/,http://peer3:7003/eureka/"
+      defaultZone: http://peer1:7001/eureka/,http://peer3:7003/eureka/
   instance:
-    prefer-ip-address: false
-    hostname: "peer2"
+#    prefer-ip-address: false
+    hostname: peer2
