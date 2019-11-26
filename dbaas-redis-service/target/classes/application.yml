@@ -12,5 +12,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
   instance:
-    instance-id: dbaas-redis-service
+#    instance-id: dbaas-redis-service
     prefer-ip-address: true

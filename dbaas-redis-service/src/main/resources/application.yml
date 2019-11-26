@@ -12,5 +12,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
   instance:
-    instance-id: dbaas-redis-service
+#    instance-id: dbaas-redis-service 当这个配置开启时，在eureka上只能注册一个节点，无法实现负载均衡
     prefer-ip-address: true

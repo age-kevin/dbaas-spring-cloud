@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97b53dfc-663a-41ac-85e0-0bf5551a40bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-common/target/dbaas-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-common/target/dbaas-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7003/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-eureka-server-7003/target/classes/com/age/dbaas/DbaasEurekaServer7003Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-eureka-server-7003/target/classes/com/age/dbaas/DbaasEurekaServer7003Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/DbaasRedisServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/DbaasRedisServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/DbaasRedisServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/DbaasRedisServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +136,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.age.dbaas.DbaasRedisServiceApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=9050" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9051" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,7 +209,8 @@
       <workItem from="1574171036894" duration="5895000" />
       <workItem from="1574338853305" duration="3040000" />
       <workItem from="1574476475116" duration="14570000" />
-      <workItem from="1574599037091" duration="1878000" />
+      <workItem from="1574599037091" duration="2030000" />
+      <workItem from="1574770319647" duration="3078000" />
     </task>
     <task id="LOCAL-00001" summary="update by Age">
       <created>1574001238826</created>
@@ -263,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574347633298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update by AGE">
+      <created>1574612605232</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574612605232</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
