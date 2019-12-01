@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97b53dfc-663a-41ac-85e0-0bf5551a40bb" name="Default Changelist" comment="">
+    <list default="true" id="97b53dfc-663a-41ac-85e0-0bf5551a40bb" name="Default Changelist" comment="update by AGE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/DbaasRedisServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/DbaasRedisServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/DbaasCmdbServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/DbaasCmdbServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/impl/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/DbaasCmdbServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/DbaasCmdbServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/impl/TestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/impl/TestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/DbaasRedisServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/DbaasRedisServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +56,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.age.dbaas" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\dbaasspringcloud\dbaas-cmdb-service\src\main\resources" />
       <recent name="D:\Workspace\dbaasspringcloud\dbaas-cmdb-service\src\main\java" />
@@ -74,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DbaasCmdbServiceApplication">
+  <component name="RunManager" selected="Spring Boot.DbaasRedisServiceApplication">
     <configuration name="DbaasCmdbServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dbaascmdbservice" />
       <extension name="coverage">
@@ -210,7 +219,10 @@
       <workItem from="1574338853305" duration="3040000" />
       <workItem from="1574476475116" duration="14570000" />
       <workItem from="1574599037091" duration="2030000" />
-      <workItem from="1574770319647" duration="3078000" />
+      <workItem from="1574770319647" duration="4355000" />
+      <workItem from="1574952971157" duration="1863000" />
+      <workItem from="1575085026023" duration="1893000" />
+      <workItem from="1575166743786" duration="9557000" />
     </task>
     <task id="LOCAL-00001" summary="update by Age">
       <created>1574001238826</created>
@@ -254,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574612605232</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update by AGE">
+      <created>1574773424519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574773424519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -14,9 +14,9 @@ public class TestEndpoint {
     private String port;
 
     @GetMapping(value = "/v1.0")
-    public TestEntity getHelloRedis(){
+    public TestEntity getHelloRedis(String parameter){
         TestEntity testEntity = new TestEntity();
-        testEntity.setId(1).setMessage("端口：" + port);
+        testEntity.setId(1).setMessage("端口：" + port + ", 参数：" + parameter);
         return testEntity;
     }
 }
