@@ -6,12 +6,6 @@
       <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/DbaasCmdbServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/DbaasCmdbServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/src/main/java/com/age/dbaas/impl/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/DbaasCmdbServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/DbaasCmdbServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/impl/TestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-cmdb-service/target/classes/com/age/dbaas/impl/TestServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/src/main/java/com/age/dbaas/controller/TestEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbaas-redis-service/target/classes/com/age/dbaas/controller/TestEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -52,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -222,7 +217,11 @@
       <workItem from="1574770319647" duration="4355000" />
       <workItem from="1574952971157" duration="1863000" />
       <workItem from="1575085026023" duration="1893000" />
-      <workItem from="1575166743786" duration="9557000" />
+      <workItem from="1575166743786" duration="9752000" />
+      <workItem from="1575209748939" duration="33000" />
+      <workItem from="1575296079054" duration="293000" />
+      <workItem from="1575981100955" duration="1376000" />
+      <workItem from="1576162173643" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="update by Age">
       <created>1574001238826</created>
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574773424519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update by AGE">
+      <created>1575209644116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575209644116</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
